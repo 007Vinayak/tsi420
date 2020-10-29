@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tsi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ForgotPassword2"></activity>
+        <activity android:name=".OutWarrantyActivity" />
+        <activity android:name=".Offers3Activity" />
+        <activity
+            android:name=".Offers1ScrollableActivity"
+            android:label="@string/title_activity_offers1_scrollable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InWarrantActivity" />
+        <activity android:name=".ServiceTypeActivity" />
+        <activity android:name=".offersActivity" />
+        <activity android:name=".TrackOrderActivity" />
+        <activity android:name=".SelectPhoneActivity" />
+        <activity android:name=".MyDevicesActivity" />
+        <activity android:name=".SelectRepairActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".ProfilePageActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUpPage2" />
+        <activity android:name=".SignUpPage1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
